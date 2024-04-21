@@ -7,9 +7,9 @@ terraform {
     }
   }
 }
-provider "digitalocean" {
-  token = ""
-}
+# provider "digitalocean" {
+#   token = ""
+# }
 
 resource "digitalocean_kubernetes_cluster" "flask_app" {
   name    = "flask-cluster"
