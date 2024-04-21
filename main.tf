@@ -8,7 +8,7 @@ terraform {
   }
 }
 provider "digitalocean" {
-  token = "dop_v1_53c98b4f9d62b8e481447983de67454e4321276fbc52b44bd875284611eb72d2"
+  token = ""
 }
 
 resource "digitalocean_kubernetes_cluster" "flask_app" {
